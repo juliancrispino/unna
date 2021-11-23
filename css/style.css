@@ -446,6 +446,9 @@ footer a:visited{
     .negocio p{
         font-size: 2.5rem;
     }
+    .negocio{
+        margin-top: 1rem;
+    }
 
     /*Footer*/
     footer{

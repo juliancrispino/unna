@@ -32,6 +32,11 @@ hamburguesa.addEventListener("click", function(){
     enlacesHeader.classList.toggle("menuDos");
 })
 
+enlacesHeader.addEventListener('click', function(){
+    enlacesHeader.classList.toggle("menuDos");
+})
+
+
 // ANIMATE numbers//
 var results = $('.results');
 if(results.length > 0){
