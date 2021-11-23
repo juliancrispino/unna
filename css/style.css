@@ -382,6 +382,7 @@ footer a:visited{
         flex-direction: column;
         justify-content: space-evenly;
         height: 720px;
+        margin-top: 3rem;
     }
 
     .contenido-header img{
@@ -448,12 +449,18 @@ footer a:visited{
 
     /*Footer*/
     footer{
-        justify-content: space-evenly;
+        display: block;
     }
-
-    .partFooter{
-        width: 40%;
-        margin-bottom: 40px;
+    footer p:last-child{
+        margin-top: 1rem;
+    }
+    .contacto h3{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .contacto a{
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 }
 
@@ -483,7 +490,7 @@ footer a:visited{
 
     .enlaces-header{
         position: fixed;
-        background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+        background-image: linear-gradient(to top, #eee0df 0%, #c5a164 100%);
         top: 0;
         right: 0;
         width: 100%;
@@ -501,7 +508,7 @@ footer a:visited{
     }
 
     .nav .enlaces-header a{
-        color: #fff;
+        color: #000;
     }
 
     .hamburguer{
