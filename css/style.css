@@ -548,7 +548,7 @@ footer a:visited{
 
     /*Portfolio*/
     .galeria{
-        display: block
+        grid-template-columns: repeat(2, 1fr);
     }
     .negocio p{
         font-size: 1.5rem;

@@ -34,6 +34,7 @@ hamburguesa.addEventListener("click", function(){
 
 enlacesHeader.addEventListener('click', function(){
     enlacesHeader.classList.toggle("menuDos");
+    semaforo = true
 })
 
 
